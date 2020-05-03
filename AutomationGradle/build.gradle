@@ -53,6 +53,13 @@ dependencies {
 	
 	//https://mvnrepository.com/artifact/com.aventstack/extentreports
 	compile group: 'com.aventstack', name: 'extentreports', version: '3.1.3'
+	
+	// https://mvnrepository.com/artifact/org.sonarsource.scanner.gradle/sonarqube-gradle-plugin
+compile group: 'org.sonarsource.scanner.gradle', name: 'sonarqube-gradle-plugin', version: '2.2'
+
+// https://mvnrepository.com/artifact/net.saliman/gradle-cobertura-plugin
+testCompile group: 'net.saliman', name: 'gradle-cobertura-plugin', version: '3.0.0'
+	
 }
 
 // In this section you declare where to find the dependencies of your project
